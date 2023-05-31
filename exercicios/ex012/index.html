@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vídeos com HTML 5</title>
 </head>
 <body>
-    
+    <h1>Inserindo Vídeos locais no Site</h1>
+    <p>Esse vídeo está em meu servidor.</p>
+
+    <video src="midia/video-praia-720p.mp4" width="600" controls preload="metadata"></video>
+    <br>
+    <video controls width="600">
+        <source src="midia/video-praia-720p.mp4" type="video/mp4">
+        <source src="midia/video-praia.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos, clique <a href="midia/video-praia-720p.mp4" download="video-praia-720p.mp4" type="video/mp4">aqui</a> para baixar.</p>
+    </video>
 </body>
 </html>
