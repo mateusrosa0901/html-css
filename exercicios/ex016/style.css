@@ -7,13 +7,14 @@
 body {
     background-image: linear-gradient(to bottom, #F1D8C9, #F2C3A7 60%);
     height: 100%;
+    background-attachment: fixed;    
 }
 
 main {
     background-color: white;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #a88d70b4;
-    width: 400px;
+    width: 600px;
     padding: 10px;
     margin: auto;
 }
