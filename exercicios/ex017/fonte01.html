@@ -8,10 +8,29 @@
     <style>
         body {
             font-family: 'Courier New', Courier, monospace;
+            /*
+            Medidas absolutas:
+            cm, nm, in, px, pt, pc
+
+            Medidas relativas:
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 16px;
         }
 
-        h1, h2 {
+        h1 {
+            /*
+            shorthand font
+            font-style, font-weight, font-size, font-family
+
             font-family: 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            font-size: 3em;
+            font-style: italic;
+            */
+
+            font: italic lighter 3em 'Times New Roman', Times, serif;
         }
     </style>
 </head>
