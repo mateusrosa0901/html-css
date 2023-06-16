@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(103, 201, 168);
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+#html {
+    color: rgb(211, 113, 2);
+}
+
+#css {
+    color: blue;
+}
+
+.conteudo {
+    text-align: justify;
+    background-color: bisque;
+}
